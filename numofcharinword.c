@@ -5,7 +5,7 @@ void main()
     char s[10],i,c=0;
     printf("enter the character:");
     scanf("%s",&s);
-    for(i=0;s[i]!=0;i++)
+    for(i=0;s[i]!='\0';i++)
     {
         if(s[i]>'A' && s[i]<'z');
         {
